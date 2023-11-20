@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Peru",
+    "imageUrl": "/assets/journey-thumbnails/peru.jpg",
+    "price": 1200,
+    "pros": [
+      "Kook workshop"
+    ],
+    "cons": [
+      "Toeristisch"
+    ]
+  }
+]

@@ -43,3 +43,7 @@ Thumbs.db
 
 src/assets/journey-thumbnails/*
 !src/assets/journey-thumbnails/.gitkeep
+
+src/assets/journeys/*
+!src/assets/journeys/journeys.example.json
+!src/assets/journeys/journeys.schema.json

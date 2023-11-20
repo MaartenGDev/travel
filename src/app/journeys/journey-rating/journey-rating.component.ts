@@ -11,5 +11,5 @@ import {Journey} from "../../models/Journey";
 })
 export class JourneyRatingComponent {
   @Input()
-  public journey: Journey = {name: '', imageUrl: '', pros: [], cons: []};
+  public journey: Journey = {name: '', imageUrl: '', price: 0, pros: [], cons: []};
 }

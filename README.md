@@ -5,5 +5,7 @@ App to easily compare journeys
 ![Compare journeys](./docs/compare_journeys.png)
 
 ## Setup
-1. `npm install`
-2. `npm start`
+1. Copy `assets/journeys/journeys.example.json` to `assets/journeys/journeys.json`
+2. Modify the content
+3. `npm install`
+4. `npm start`
