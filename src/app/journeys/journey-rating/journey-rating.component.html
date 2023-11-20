@@ -2,9 +2,10 @@
   <div class='w-full h-48 bg-cover relative' [style.background-image]="'url(\''+journey.imageUrl+'\')'">
     <div class="bg-black opacity-30 absolute h-full w-full"></div>
 
-    <h3 class="absolute bottom-0 text-2xl text-white m-4">{{journey.name}}</h3>
-
-    <span class="font-bold absolute right-0 bottom-0 m-4 bg-white py-0.5 px-1 rounded">&euro; {{journey.price}}</span>
+    <div class="absolute bottom-0 flex justify-between items-end w-full">
+      <h3 class="text-2xl text-white m-4 break-words">{{journey.name}}</h3>
+      <span class="font-bold m-4 bg-white py-0.5 px-1 rounded whitespace-nowrap">&euro; {{journey.price}}</span>
+    </div>
   </div>
 
   <div class="p-8">
